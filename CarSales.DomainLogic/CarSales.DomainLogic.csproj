@@ -1,0 +1,17 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="MediatR" Version="8.1.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\CarSales.Data\CarSales.Data.csproj" />
+    <ProjectReference Include="..\CarSales.Domain\CarSales.Domain.csproj" />
+    <ProjectReference Include="..\CarSales.Infrastructure\CarSales.Infrastructure.csproj" />
+  </ItemGroup>
+
+</Project>
